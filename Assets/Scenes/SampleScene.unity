@@ -1628,7 +1628,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 995509234455606733, guid: 1055c97574faa944ca5122450fff139f, type: 3}
       propertyPath: m_LineType
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 995509234455606733, guid: 1055c97574faa944ca5122450fff139f, type: 3}
       propertyPath: m_MaxRaycastDistance
@@ -1657,6 +1657,10 @@ PrefabInstance:
     - target: {fileID: 1466964630960758430, guid: 1055c97574faa944ca5122450fff139f, type: 3}
       propertyPath: m_LineLength
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1466964630960758430, guid: 1055c97574faa944ca5122450fff139f, type: 3}
+      propertyPath: m_SetLineColorGradient
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1621805843441067491, guid: 1055c97574faa944ca5122450fff139f, type: 3}
       propertyPath: m_Enabled
@@ -1689,6 +1693,10 @@ PrefabInstance:
     - target: {fileID: 1898528433015295115, guid: 1055c97574faa944ca5122450fff139f, type: 3}
       propertyPath: m_LineLength
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1898528433015295115, guid: 1055c97574faa944ca5122450fff139f, type: 3}
+      propertyPath: m_SmoothMovement
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3039584579529037241, guid: 1055c97574faa944ca5122450fff139f, type: 3}
       propertyPath: m_Enabled
@@ -1796,11 +1804,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6869311209575068726, guid: 1055c97574faa944ca5122450fff139f, type: 3}
       propertyPath: field of view
-      value: 125.1
+      value: 96.1
       objectReference: {fileID: 0}
     - target: {fileID: 6869311209575068726, guid: 1055c97574faa944ca5122450fff139f, type: 3}
       propertyPath: m_FocalLength
-      value: 6.233501
+      value: 10.785902
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869311209575068726, guid: 1055c97574faa944ca5122450fff139f, type: 3}
+      propertyPath: far clip plane
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 6869311209575068726, guid: 1055c97574faa944ca5122450fff139f, type: 3}
       propertyPath: m_projectionMatrixMode
@@ -1824,11 +1836,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8489848122521509919, guid: 1055c97574faa944ca5122450fff139f, type: 3}
       propertyPath: m_LineType
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8489848122521509919, guid: 1055c97574faa944ca5122450fff139f, type: 3}
       propertyPath: m_HitDetectionType
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8489848122521509919, guid: 1055c97574faa944ca5122450fff139f, type: 3}
       propertyPath: m_MaxRaycastDistance
@@ -4402,7 +4414,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2083068498627325641, guid: 1ec55d3710a72174189aa030cc989e57, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2083068498627325642, guid: 1ec55d3710a72174189aa030cc989e57, type: 3}
       propertyPath: m_LocalScale.x
