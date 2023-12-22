@@ -5,7 +5,7 @@ public class ScreenManager : MonoBehaviour
 {
     public GameObject screenPrefab;
     public GameObject screensContainer;
-    public string host = "198.21.173.18";
+    public string host = "198.21.172.85";
     public int basePort = 9999;
     private Dictionary<int, ScreenReceiver> screens = new Dictionary<int, ScreenReceiver>();
 
